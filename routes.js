@@ -31,7 +31,7 @@ router.get("/name", function(req, res) {
 
 
 router.get("/greeting", function(req, res) {
-	res.send(NAME);
+	res.send(NAME + "<h2>N01618379</h2>");
 })
 
 router.get('/add/:x-:y', (req, res) => {
@@ -57,7 +57,7 @@ router.get("/calculate/:a-:op-:b", function(req, res) {
 			res.send(`<h1>The qoutient of ${a} and ${b} is ${a / b}</h1>`);
 			break;
 		case "pow":
-			res.send(`<h1>The product of ${a} and ${b} is ${a ** b}</h1>`);
+			res.send(`<h1>The product of ${a} by the power of ${b} is ${a ** b}</h1>`);
 			break;
 		default:
 			res.send("<h1>operations: add, sub, mult, div, pow</h1>");
