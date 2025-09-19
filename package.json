@@ -1,0 +1,24 @@
+{
+  "name": "cpan212-lab2",
+  "version": "1.0.0",
+  "description": "An example express.js server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CFujitaHumber/cpan212-lab.git"
+  },
+  "author": "Carson Fujita",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/CFujitaHumber/cpan212-lab/issues"
+  },
+  "homepage": "https://github.com/CFujitaHumber/cpan212-lab#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
